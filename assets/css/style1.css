@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: olive;
+}
+
+header h1 {
+    margin-bottom: 51px;
+    font-size: 40px;
+}
+
+header a {
+    text-decoration: none;
+    color: purple;
+}
+
+header img {
+    width: 5%;
+}
+
+header nav {
+  text-align: right;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: skyblue;
+}
+
+/* This section of css sourced from https://stackoverflow.com/questions/20305095/center-text-between-two-images */
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float: right;
+}
+
+.logoHeader {
+    vertical-align: middle;
+    text-align: center;
+}
+/* close section */
+
+.background-image {
+    background-image: url("../images/FireEmblemExpo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
