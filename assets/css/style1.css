@@ -79,3 +79,16 @@ p {
     color: white;
     font-weight: bold;
 }
+
+.units nav {
+    padding: 15px 0 0 0;
+}
+
+.units nav ul li {
+    display: inline;
+    margin: 0 5px 0 0;
+}
+
+.units nav ul li a {
+    color: white;
+}
