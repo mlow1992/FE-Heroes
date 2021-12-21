@@ -13,8 +13,8 @@ header {
 }
 
 header h1 {
-    margin-bottom: 51px;
     font-size: 40px;
+    margin-bottom: 51px;
 }
 
 header a {
@@ -54,9 +54,28 @@ header nav ul li a {
 }
 /* close section */
 
+.basic {
+    margin: 0 20px;
+    padding: 10px;
+}
+
+h2 {
+    display: inline;
+    border-bottom: 3px solid blue;
+}
+
+p {
+    padding: 10px 0 0 0;
+}
+
 .background-image {
     background-image: url("../images/FireEmblemExpo.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.Intro p {
+    color: white;
+    font-weight: bold;
 }
